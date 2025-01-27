@@ -60,7 +60,7 @@ VERSION="0.0.1"
 
 check_version() {
     log "检查最新版本..."
-    LATEST_VERSION=$(curl -s https://api.github.com/repos/heyuecock/zsan/releases/latest | grep tag_name | cut -d '"' -f 4)
+    LATEST_VERSION=$(curl -s https://api.github.com/repos/heyuecock/zsan-server-worker/releases/latest | grep tag_name | cut -d '"' -f 4)
     
     if [ "$VERSION" != "$LATEST_VERSION" ]; then
         log "发现新版本: $LATEST_VERSION"
