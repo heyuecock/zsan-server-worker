@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS status (
     connection_count INTEGER,   
     ip_address TEXT,            
     country_code TEXT,
-    cpu_model TEXT,             # 新增：CPU型号信息
+    cpu_model TEXT,
     FOREIGN KEY (client_id) REFERENCES client(id)
 );
 
