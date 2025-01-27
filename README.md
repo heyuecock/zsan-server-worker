@@ -112,7 +112,7 @@ CREATE INDEX IF NOT EXISTS idx_status_country_code ON status(country_code);
 在需要监控的服务器上运行：
 
 ```bash
-curl -L https://github.com/heyuecock/zsan/raw/refs/heads/main/zsan.sh -o zsan.sh
+curl -L https://github.com/heyuecock/zsan-server-worker/raw/refs/heads/main/zsan.sh -o zsan.sh
 chmod +x zsan.sh
 ./zsan.sh
 ```
