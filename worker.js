@@ -18,7 +18,7 @@ const DATA_RETENTION = {
 };
 
 // 添加 GitHub index.html 链接常量
-const INDEX_HTML_URL = 'https://raw.githubusercontent.com/heyuecock/zsan/refs/heads/main/index.html';
+const INDEX_HTML_URL = 'https://raw.githubusercontent.com/heyuecock/zsan-server-worker/refs/heads/main/index.html';
 
 // 添加缓存对象
 let indexHtmlCache = {
