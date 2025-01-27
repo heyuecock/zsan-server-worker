@@ -67,7 +67,7 @@ check_version() {
         read -p "是否更新到最新版本? [y/N] " UPDATE
         if [ "$UPDATE" = "y" ] || [ "$UPDATE" = "Y" ]; then
             # 下载新版本
-            curl -L "https://github.com/heyuecock/zsan/releases/download/$LATEST_VERSION/zsan_amd64" -o /tmp/zsan_amd64
+            curl -L "https://github.com/heyuecock/zsan-server-worker/releases/download/$LATEST_VERSION/zsan_amd64" -o /tmp/zsan_amd64
             # ... 更新安装逻辑
         fi
     fi
